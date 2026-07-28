@@ -1,24 +1,24 @@
 class Slcli < Formula
   desc "SystemLink Integrator CLI: Manage SystemLink test plan templates and workflows"
   homepage "https://github.com/ni-kismet/systemlink-cli"
-  version "1.17.3"
+  version "1.17.4"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/ni-kismet/systemlink-cli/releases/download/v1.17.3/slcli-macos-15-intel.tar.gz"
-      sha256 "ce98ac07a4597780fb231546d569e3a40bc493833afc043ad18596dd1e4bef56"
+      url "https://github.com/ni-kismet/systemlink-cli/releases/download/v1.17.4/slcli-macos-15-intel.tar.gz"
+      sha256 "2e602ef4479ae7fb2f8b07affdb0222594092ed68ae0714d09b377d80b3b0830"
     end
 
     on_arm do
-      url "https://github.com/ni-kismet/systemlink-cli/releases/download/v1.17.3/slcli-macos.tar.gz"
-      sha256 "f84b0b54998312b9c765b2d5f62c1ffa897d59e4495783525ba492581b032fed"
+      url "https://github.com/ni-kismet/systemlink-cli/releases/download/v1.17.4/slcli-macos.tar.gz"
+      sha256 "71a3f905a574798e57d95b1c84a353951aa88b1aaa2584ba69b609763dc2faa9"
     end
   end
 
   on_linux do
-    url "https://github.com/ni-kismet/systemlink-cli/releases/download/v1.17.3/slcli-linux.tar.gz"
-    sha256 "39582e85477f2064b2a4384a23cbd288c423031a05193ff631c1f27a6c5d1063"
+    url "https://github.com/ni-kismet/systemlink-cli/releases/download/v1.17.4/slcli-linux.tar.gz"
+    sha256 "4d403691dfca25f4212b1fc756542810f3a4ea7fa543e95a4bca5859c33bae06"
   end
 
   def install
